@@ -82,6 +82,10 @@ git clone https://github.com/melodiemonod/2025_Statistics_EIB11FA005.git
 A Conda environment is an isolated workspace that contains specific versions of Python and packages, and a `.yml`  file is a configuration file that lists all the packages and dependencies needed to recreate that environment.
 
 1. Open repository on **VS Code**, Start > Open > Select the repository
-2. Open Command Palette (press Ctrl+Shift+P / Cmd+Shift+P).
-3. Type Python: Select Interpreter.
-4. Choose the Conda environment ``2025_Statistics_EIB11FA005''.
+2. Install environment by running from the terminal
+```bash
+ conda env create -f environment.yml
+```
+3. Open Command Palette (press Ctrl+Shift+P / Cmd+Shift+P).
+4. Type Python: Select Interpreter.
+5. Choose the Conda environment ``2025_Statistics_EIB11FA005''.
