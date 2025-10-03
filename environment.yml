@@ -1,0 +1,14 @@
+name: 2025_Statistics_EIB11FA005
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scikit-learn
+  - pip
+  - matplotlib
+  - seaborn
+  - pip:
+      - kagglehub
